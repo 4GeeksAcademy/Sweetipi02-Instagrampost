@@ -2,34 +2,45 @@
     border: 1px dashed red;
 }
 html {
-    background-color: rgb(230, 63, 152);
+    background-color: rgb(233, 100, 171);
     width: 520px;
     height: auto;
-    margin: auto;
 }
 .post {
     width: 580px;
-    background-color: rgba(243, 186, 213, 0.87);
+    background-color: white;
     height: auto;
     outline-offset: 10px;
 }
-.post header {
-    width: 250px;
-    height: 125px;
+svg {
+    font-size: 1rem;
+    height: fit-content;
+}
+heart {
+    font-size: 1rem;
+}
+bookmark {
+    height: fit-content;
+    justify-content: space-between;
+    font-size: 1rem;
     display: flex;
-    padding: 5px;
+}
+.post-header {
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-inline: 1rem;
 
 }
 #profile {
-    margin: auto;
-    width: 75px;
-    height: 95px;
+    width: 70px;
+    height: 75px;
+    display: flex;
 }   
 #dots {
-    padding-left: 420px;
-    width: 65px;
-    height: 70px;
-
+    width: 15px;
+    height: 25px;
 }
 .fa heart {
     width: 15px;
