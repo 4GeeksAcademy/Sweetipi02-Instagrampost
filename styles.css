@@ -1,14 +1,19 @@
-*{
+/* *{
     border: 1px dashed red;
-}
+} */
 html {
-    background-color: rgb(233, 100, 171);
+    background-color: rgba(190, 252, 245, 0.473);
     width: 520px;
     height: auto;
+    margin: auto;
+}
+h3 {
+    margin-right: auto;
+
 }
 .post {
-    width: 580px;
-    background-color: white;
+    width: 510px;
+    background-color: rgb(236, 187, 213);
     height: auto;
     outline-offset: 10px;
 }
@@ -16,14 +21,11 @@ svg {
     font-size: 1rem;
     height: fit-content;
 }
-heart {
+#bookmark {
     font-size: 1rem;
-}
-bookmark {
-    height: fit-content;
     justify-content: space-between;
-    font-size: 1rem;
-    display: flex;
+    margin-left: auto;
+    float: right;
 }
 .post-header {
     height: fit-content;
@@ -31,7 +33,6 @@ bookmark {
     align-items: center;
     display: flex;
     padding-inline: 1rem;
-
 }
 #profile {
     width: 70px;
@@ -43,10 +44,10 @@ bookmark {
     height: 25px;
 }
 .fa heart {
+    font-size: 1rem;
     width: 15px;
-    height: 20px;
+    height: fit-content;
 }
 .post body {
     font-family: Roboto-type;
-
 }
