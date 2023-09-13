@@ -1,0 +1,41 @@
+*{
+    border: 1px dashed red;
+}
+html {
+    background-color: rgb(230, 63, 152);
+    width: 520px;
+    height: auto;
+    margin: auto;
+}
+.post {
+    width: 580px;
+    background-color: rgba(243, 186, 213, 0.87);
+    height: auto;
+    outline-offset: 10px;
+}
+.post header {
+    width: 250px;
+    height: 125px;
+    display: flex;
+    padding: 5px;
+
+}
+#profile {
+    margin: auto;
+    width: 75px;
+    height: 95px;
+}   
+#dots {
+    padding-left: 420px;
+    width: 65px;
+    height: 70px;
+
+}
+.fa heart {
+    width: 15px;
+    height: 20px;
+}
+.post body {
+    font-family: Roboto-type;
+
+}
