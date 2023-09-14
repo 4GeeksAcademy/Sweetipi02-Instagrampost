@@ -8,7 +8,7 @@ html {
     margin: auto;
 }
 h3 {
-    margin-right: auto;
+    margin-right: auto;  
 
 }
 .post {
@@ -16,6 +16,8 @@ h3 {
     background-color: rgb(236, 187, 213);
     height: auto;
     outline-offset: 10px;
+    border-radius: 5%;
+    overflow: hidden;
 }
 svg {
     font-size: 1rem;
@@ -36,7 +38,7 @@ svg {
 }
 #profile {
     width: 70px;
-    height: 75px;
+    height: 65px;
     display: flex;
 }   
 #dots {
@@ -48,6 +50,13 @@ svg {
     width: 15px;
     height: fit-content;
 }
-.post body {
+.post-body {
     font-family: Roboto-type;
+    padding-inline: 10px;
 }
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: inherit;
+ }
